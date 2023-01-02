@@ -506,7 +506,7 @@ function Home() {
                             <div className='cred-text pt-2'>
                               <h5>BSE Registered Mutual Fund Distributor</h5>
                               <p> No : 39180</p>
-                            </div>webp
+                            </div>
                           </div>
                         </AnimationOnScroll>
                       </div>
