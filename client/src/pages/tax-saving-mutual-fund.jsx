@@ -18,7 +18,7 @@ return (
       </div>
       <div className="col-md-7">
         <div className="mutual-fund-text">
-          <h2>Tax Saving Mutual Funds</h2>
+          <h1>Tax Saving Mutual Funds</h1>
           <div className="pageTitleBorder"></div>
           <p>Mutual Funds are among the smartest ways to save tax since they have the flexibility needed to avail tax benefits in a pocket-friendly manner. This asset class allows investors to save tax by parking small manageable amounts through the year and accumulate the savings needed to avail the tax benefits offered under the Income Tax Act. There are, however, some doubts that accompany tax saving mutual funds. Let's clarify those doubts.</p>
           <div className="pt-3">

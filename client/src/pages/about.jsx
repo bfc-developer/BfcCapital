@@ -13,7 +13,7 @@ return (
       </div>
       <div className="col-md-6">
         <div className="about-page-text">
-          <h2>About <span className="sub-color">Us</span></h2>
+          <h1>About <span className="sub-color">Us</span></h1>
           <div className="pageTitleBorder"></div>
           <p>BFC Capital has been providing financial services and products to its clients for over two decades. Currently, the company has over 12,000 retail clients and manages an  AUM of more than Rs. 7 billion. Because we understand the importance of financial matters, additional efforts are put in to assess all clients' financial obligations, aspirations, and risk profiles before laying out a plan to help them achieve the kind of wealth they desire.</p>
           <p>BFC Capital operates under a precise mechanism designed to facilitate real-time monitoring and manoeuvring of investments. In addition, each client's portfolio is scrutinised for bad investments twice a year to rebalance the weight of all underlying assets and maintain the desired level of risk distribution.</p>
@@ -46,13 +46,18 @@ return (
 <section className="pt-80 pb-20 mutual-fund-faq">
   <div className="container">
     <div className="row">
+    <div className="col-md-5" id="mobile">
+        <div className="vision-img">
+          <img src="../assets/img/Vikas-Sir.webp" className="img-fluid"/>
+        </div>
+      </div>
       <div className="col-md-7">
         <div className="mutual-fund-text">
           <h2 className="pb-4"><span className="sub-color">Vikas Singh</span> <span className="profile-text"> ( Vice President )</span></h2>
           <p>A laser-sharp focus, a proactive intellect, and a reassuring demeanour are required when managing a team as dynamic and diverse as Team BFC. Fortunately for us, Vikas is all of that and more. In his words, it's more about the will and less about the skill. We couldn't agree more!</p>
         </div>
       </div>
-      <div className="col-md-5">
+      <div className="col-md-5" id="desktop">
         <div className="vision-img">
           <img src="../assets/img/Vikas-Sir.webp" className="img-fluid"/>
         </div>

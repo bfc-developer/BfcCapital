@@ -15,7 +15,7 @@ return (
       </div>
       <div className="col-md-7">
         <div className="mutual-fund-elss-text pt-60">
-          <h2>Best ELSS Funds</h2>
+          <h1>Best ELSS Funds</h1>
           <div className="pageTitleBorder"></div>
           <p>Let’s just start by understanding the basics of ELSS funds. In simple terms, ELSS funds are Mutual Funds that offer tax benefits under Section 80C of the Income Tax Act. As mandated by regulatory bodies, they invest a majority of their accumulated corpus in equity or equity-related instruments. What makes this asset class desirable is its tendency to deliver healthy returns. However, given the volatility equity markets are subjected to, certain dos and don’ts have to be kept in mind before infusing capital in this asset class. Let’s find those out.</p>
           <div className="">

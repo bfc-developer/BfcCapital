@@ -19,7 +19,7 @@ return (
 
       <div className="col-md-7">
         <div className="mutual-fund-text">
-          <h2>Mutual Funds</h2>
+          <h1>Mutual Funds</h1>
           <div className="pageTitleBorder"></div>
           <p>Mutual Funds are among the best investment options out there because of their inherent versatility, so much so that they are a good fit for seasoned and new investors alike. However, the same versatility makes identifying the best mutual fund schemes tricky. That said, it can still be done with some proper, first-hand research.</p>
           <p>Read on to figure out how. </p>

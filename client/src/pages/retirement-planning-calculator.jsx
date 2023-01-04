@@ -258,15 +258,13 @@ const RetirementCalculator = () => {
     }
   }
 
-
-
   return (
     <>
       <section className="pt-lg-3 pb-2">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 text-center">
-              <h2 className="pt-3">Retirement Planning Calculator</h2>
+            <div className="col-md-12 text-center calculator-title">
+              <h1 className="pt-3">Retirement Planning Calculator</h1>
             </div>
           </div>
           <DarkBackground disappear={!loaded}>

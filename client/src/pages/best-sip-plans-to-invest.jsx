@@ -17,7 +17,7 @@ return (
       </div>
       <div className="col-md-7">
         <div className="mutual-fund-text">
-          <h2>Best SIP Plans to Invest</h2>
+          <h1>Best SIP Plans to Invest</h1>
           <div className="pageTitleBorder"></div>
           <p>Looking for the Best SIP Plans to invest can be a very tall order, especially for the layman, simply because doing so requires a special know-how of the underlying funds, among other aspects of the financial universe. Let’s dive in and discuss the many myths that accompany this asset class and the mistakes investors make when shortlisting SIPs for investment.</p>
           <div className="pt-3">

@@ -16,7 +16,7 @@ return (
       </div>
       <div className="col-md-7">
         <div className="mutual-fund-text">
-          <h2>Best Mutual Funds to Invest in 2023</h2>
+          <h1>Best Mutual Funds to Invest in 2023</h1>
           <div className="pageTitleBorder"></div>
           <p>Moving forward, we will list some schemes that have been doing exceptionally well in their respective categories and also educate you on what makes a good plan better. However, investors should make note that no such projection is ever absolute. Mutual Fund yields are dependent on market trajectory and certain other economic factors and, therefore, should be picked after proper professional consultation.</p>
           <div className="pt-3">

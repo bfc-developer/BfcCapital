@@ -309,6 +309,11 @@ const LumpsumCalculator = () => {
     <>
       <section className="pt-lg-3 pb-2">
         <div className="container">
+        <div className="row">
+            <div className="col-md-12 text-center calculator-title">
+              <h1 className="pt-3 pb-lg-4">Mutual Fund Calculator</h1>
+            </div>
+          </div>
           <div className="row">
             <div className="col-md-6 offset-md-3 mb-3 mt-5" >
               <ul class="nav nav-pills nav-fill navtop">

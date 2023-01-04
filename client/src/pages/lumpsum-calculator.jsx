@@ -134,11 +134,11 @@ const LumpsumCalculator = () => {
 
   return (
     <>
-      <section className="pt-lg-5 pb-2">
+      <section className="pt-lg-3 pb-2">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 text-center">
-              <h2 className="pt-3 pb-lg-4">Lumpsum Calculator</h2>
+            <div className="col-md-12 text-center calculator-title">
+              <h1 className="pt-3 pb-lg-4">Lumpsum Calculator</h1>
             </div>
           </div>
           <DarkBackground disappear={!loaded}>
