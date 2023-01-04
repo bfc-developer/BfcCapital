@@ -1,4 +1,4 @@
-import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedin, FaLocationArrow, FaMapMarkedAlt, FaMapMarkerAlt, FaMobile, FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedin, FaLocationArrow, FaMapMarkedAlt, FaMapMarkerAlt, FaMobile, FaPhoneAlt, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import Axios from 'axios';
 import dateFormat from 'dateformat';
 import React, { useState, useEffect } from "react";
@@ -188,10 +188,12 @@ return (
             <a href="https://goo.gl/maps/Ut3yYcCFsM6fKzTA6" target="_blank"  className="text-footer foot-link">BFC Capital Pvt Ltd <br /> CP-61, Viraj Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010</a>
           </p>
           <p><span><FaPhoneAlt /> </span>
-          <a href="tel:05223514141" className="text-footer foot-link"> +91-522-3514141</a>
+          <a href="tel:05223514141" target="_blank" className="text-footer foot-link"> +91-522-3514141</a>
         </p>
+        <p><span><FaWhatsapp className="fa-lg"/> </span>
+        <a href="https://wa.me/+917347700888" target="_blank" className="text-footer foot-link"> +91-7347700888 </a></p>
         <p><span><FaEnvelope/> </span>
-        <a href="https://mail.google.com/mail/u/0/?fs=1&to=customersupport@bfccapital.com&body=BODY&tf=cm"  className="text-footer foot-link">customersupport@bfccapital.com</a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&to=customersupport@bfccapital.com&body=BODY&tf=cm" target="_blank" className="text-footer foot-link">customersupport@bfccapital.com</a>
       </p>
       
     </div>
