@@ -185,7 +185,7 @@ return (
             <hr
             className="mb-4 mt-0 d-inline-block mx-auto hr-bottom" />
             <p><span className="Address"><FaMapMarkerAlt /> </span>
-            <a href="https://goo.gl/maps/Ut3yYcCFsM6fKzTA6" target="_blank"  className="text-footer foot-link">BFC Capital Pvt Ltd <br /> CP-61, Viraj Khand, Gomti Nagar,Lucknow, Uttar Pradesh 226010</a>
+            <a href="https://goo.gl/maps/Ut3yYcCFsM6fKzTA6" target="_blank"  className="text-footer foot-link">BFC Capital Pvt Ltd <br /> CP-61, Viraj Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010</a>
           </p>
           <p><span><FaPhoneAlt /> </span>
           <a href="tel:05223514141" className="text-footer foot-link"> +91-522-3514141</a>
