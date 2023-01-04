@@ -167,8 +167,8 @@ return (
           <p>Listed below are some of them-</p>
           <p><b>Investment in Big Amounts</b></p>
           <p>One of the primary advantages of lumpsum mutual fund investments is that investors can make a large investment in one go. As a result, when the market escalates, the investment’s value increases rapidly.</p>
-          <p><b>Minimum Charges</b></p>
-          <p>Mutual fund investments done in a lumpsum incur minimum charges. The maintenance charges and transaction costs are way less in such cases as opposed to SIP investments.</p>
+          <p><b>No Investment Commitments</b></p>
+          <p>SIP investments require regular contributions from the investor, thereby mandating a more disciplined approach towards investing. Lump sum investments, on the other hand, allow for a one-time contribution, requiring little to no consistent efforts from the investor.</p>
           <p><b>Convenience</b></p>
           <p>Investments in mutual funds via lumpsum are way more convenient than SIP. In lumpsum investments, investors can invest in one go and watch the investment grow, whereas in SIPs, investors are required to make timely payments.</p>
           <p><b>Better Utilization of Funds</b></p>
@@ -243,7 +243,7 @@ return (
 </section>
 
 {/* ==================== Eaq Section Start ================== */}
-<section className="fqa pt-lg-5 pb-lg-5 mutual-fund-faq">
+<section className="fqa mutual-fund-faq">
   <div className="container">
   <div className="row">
       <div className="col-md-12 text-center pb-4">
@@ -254,7 +254,7 @@ return (
     <div className="row shadowc">
       <div className="col-md-12">
         <div className="mutual-fund-faq-content">
-          <Accordion defaultActiveKey="0">
+          <Accordion>
             <Accordion.Item eventKey="0" className="#">
               <Accordion.Header><span className="faqs_greenDot"></span> What is the minimum amount needed for Investment in Lumpsum Mutual Funds ?</Accordion.Header>
               <Accordion.Body>
@@ -281,7 +281,7 @@ return (
             <Accordion.Item eventKey="3">
               <Accordion.Header><span className="faqs_greenDot"></span> How to track lumpsum mutual fund investments online ? </Accordion.Header>
               <Accordion.Body>
-                <p>Investors can track all their mutual fund investments, lumpsum or SIPs on PRODIGY Pro. The app is designed to simplify mutual fund investing and help investors track and manage their entire portfolio. Investors can invest in mutual fund schemes on the go with this app.</p>
+                <p>Investors can track all their mutual fund investments, lumpsum or SIPs on <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a>. The app is designed to simplify mutual fund investing and help investors track and manage their entire portfolio. Investors can invest in mutual fund schemes on the go with this app.</p>
                 
               </Accordion.Body>
               <div className="faqs_btm_border"></div>
@@ -289,7 +289,7 @@ return (
             <Accordion.Item eventKey="4">
               <Accordion.Header><span className="faqs_greenDot"></span> How to estimate returns of Lumpsum Mutual Funds ? </Accordion.Header>
               <Accordion.Body>
-                <p>Investors can estimate returns of their lumpsum mutual fund investments with the help of a Lumpsum Calculator.</p>
+                <p>Investors can estimate returns of their lumpsum mutual fund investments with the help of a <a href="/lumpsum-calculator" target="_blank" className="text-bold text-primary"><u>Lumpsum Calculator</u></a>.</p>
                 
               </Accordion.Body>
               <div className="faqs_btm_border"></div>

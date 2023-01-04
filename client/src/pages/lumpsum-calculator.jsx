@@ -327,21 +327,23 @@ const LumpsumCalculator = () => {
         </div>
       </section>
       {/* ==================== Eaq Section Start ================== */}
-      <section className="fqa pt-lg-5 pb-lg-5 mutual-fund-faq">
+      <section className="fqa pt-lg-3  mutual-fund-faq">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center pb-4">
+            <h4 className="fqa-top-text mb-4 pt-3">FAQs</h4>
+            <div className="contact-pageTitleBorder"></div>
             </div>
           </div>
           <div className="row shadowc">
             <div className="col-md-12">
               <div className="mutual-fund-faq-content">
-                <Accordion defaultActiveKey="0">
+                <Accordion >
                   <Accordion.Item eventKey="0" className="#">
                     <Accordion.Header><span className="faqs_greenDot"></span> What is a Lumpsum Calculator ? </Accordion.Header>
                     <Accordion.Body>
                       <p>A Lumpsum Calculator is an online tool used for computing the corpus one-time mutual fund investments may compound into overtime. Investors can use this tool to compute their investments’ returns at varying time intervals like 1-year, 3-years, 5-years, etc. The logic governing this tool takes into account the amount parked in the investment, the average rate of return the investor is expecting, and the investment tenure to fetch the desired projection.</p>
-                      <p>Using this tool is a practice encouraged among investors, as it helps them get a better picture of the end result, and consequently, make better, and well-informed financial decisions.</p>
+                      <p>Using this tool is a practice encouraged among investors, as it helps them get a better picture of the end result, and consequently make better and well-informed financial decisions.</p>
                     </Accordion.Body>
                     <div className="faqs_btm_border"></div>
                   </Accordion.Item>
@@ -349,8 +351,8 @@ const LumpsumCalculator = () => {
                     <Accordion.Header><span className="faqs_greenDot"></span> How does a Mutual Fund Lumpsum Calculator help you ?</Accordion.Header>
                     <Accordion.Body>
                       <p>"As already discussed, Lumpsum Calculators are used to compute the corpus an investment may compound into over the opted tenure of investment. Now, let’s try and understand the significance of such estimations with the help of the example listed below. Let’s assume herein the investor is looking to invest money with the intent of buying a house 15 years from today.</p>
-                      <p>He presently has Rs. 5,00,000 in hand, which he chooses to invest in a mutual fund, that may draw returns at the rate of 12%. To plan ahead, he needs to know what this investment shall compound into. Consequently, he feeds the certain figures in the Lumpsum Calculator, namely the investment amount, the tenure of investment, and the expected rate of return.</p>
-                      <p>Upon hitting “Calculate”, the tool computes the values to arrive at a compounded approximate value of Rs. 27,36,000. This projection shall allow the investor to entertain the idea of buying something close to this value, and if need be, make additional lumpsum investments at intermittent intervals to achieve the final corpus he/she may be targeting."</p>
+                      <p>He presently has Rs. 5,00,000 in hand, which he chooses to invest in a mutual fund, that may draw returns at the rate of 12%. To plan ahead, he needs to know what this investment shall compound into. Consequently, he feeds certain figures in the Lumpsum Calculator, namely the investment amount, the tenure of investment, and the expected rate of return.</p>
+                      <p>Upon hitting “Calculate”, the tool computes the values to arrive at a compounded approximate value of Rs. 27,36,000. This projection shall allow the investor to entertain the idea of buying something close to this value and if need be, make additional lumpsum investments at intermittent intervals to achieve the final corpus he/she may be targeting."</p>
                     </Accordion.Body>
                     <div className="faqs_btm_border"></div>
 
@@ -358,7 +360,7 @@ const LumpsumCalculator = () => {
                   <Accordion.Item eventKey="2">
                     <Accordion.Header><span className="faqs_greenDot"></span> What are the benefits/advantages of Lumpsum Mutual Fund Investments ? </Accordion.Header>
                     <Accordion.Body>
-                      <p>Lumpsum Mutual Fund Investments are apt for individuals who wish to make investments in mutual funds in one shot i.e without the involvement of an instalment plan. Lumpsum investments are simpler as compared to other modes of investment as they allow you to invest as per your convenience and fund availability.</p>
+                      <p>Lumpsum Mutual Fund Investments are apt for individuals who wish to make investments in mutual funds in one shot i.e. without the involvement of an instalment plan. Lumpsum investments are simpler as compared to other modes of investment as they allow you to invest as per your convenience and fund availability.</p>
                       <p>The freedom to invest at time intervals of your choice, based on fund availability, makes investing in a lumpsum the preferred mode of parking funds for many individuals. The returns fetched herein are tax-efficient, which coupled with the absence of a lock-in period, a favorable aspect of open-ended mutual funds, makes investing money in one go a very tempting and liquid option.</p>
                       <p>Besides, there is no upper limit to the amount that can be invested in mutual funds in a lumpsum, so you can keep parking all the money you wish to without a worry in the world. However, those still reluctant, need to understand that the money sitting in their savings bank account shall never grow beyond a certain point, as it simply cannot fetch returns equalling the inflation rate.</p>
                     </Accordion.Body>

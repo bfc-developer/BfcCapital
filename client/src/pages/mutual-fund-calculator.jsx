@@ -665,16 +665,18 @@ const LumpsumCalculator = () => {
         </div>
       </section>
       {/* ==================== Eaq Section Start ================== */}
-      <section className="fqa pb-lg-5 mutual-fund-faq">
+      <section className="fqa pt-lg-3 mutual-fund-faq">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center pb-4">
+            <h4 className="fqa-top-text mb-4 pt-3">FAQs</h4>
+            <div className="contact-pageTitleBorder"></div>
             </div>
           </div>
           <div className="row shadowc">
             <div className="col-md-12">
               <div className="mutual-fund-faq-content">
-                <Accordion defaultActiveKey="0">
+                <Accordion >
                   <Accordion.Item eventKey="0" className="#">
                     <Accordion.Header><span className="faqs_greenDot"></span> What is a Mutual Fund ? </Accordion.Header>
                     <Accordion.Body>
@@ -687,7 +689,7 @@ const LumpsumCalculator = () => {
                     <Accordion.Header><span className="faqs_greenDot"></span> What is a Mutual Fund Calculator ?</Accordion.Header>
                     <Accordion.Body>
                       <p>A Mutual Fund Calculator is a tool that computes the maturity value of a Mutual Fund investment, based on certain parameters. These include, the amount that is to be invested in the scheme, and the expected rate of returns, amongst others.</p>
-                      <p>Thereafter, the potential investor gets to see the lumpsum his investment shall compound into. This computed projection helps potential investors budget their expenses, and consequently set aside the amount that needs to be diverted into the scheme for achieving their financial goals.</p>
+                      <p>Thereafter, the potential investor gets to see the lumpsum his investment shall compound into. This computed projection helps potential investors budget their expenses and consequently set aside the amount that needs to be diverted into the scheme to achieve their financial goals.</p>
                     </Accordion.Body>
                     <div className="faqs_btm_border"></div>
                   </Accordion.Item>

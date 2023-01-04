@@ -2,7 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Accordion from 'react-bootstrap/Accordion';
 import 'animate.css';
-const ElssMutualFund = () => {
+const NewFundOffers = () => {
 return (
 <>
 <section className="pt-lg-60 pt-sm-60 pb-4 bg-color">
@@ -15,9 +15,9 @@ return (
       </div>
       <div className="col-md-7">
         <div className="mutual-fund-elss-text pt-60">
-          <h2>Best ELSS Funds</h2>
+          <h2>New Fund Offers</h2>
           <div className="pageTitleBorder"></div>
-          <p>Let’s just start by understanding the basics of ELSS funds. In simple terms, ELSS funds are Mutual Funds that offer tax benefits under Section 80C of the Income Tax Act. As mandated by regulatory bodies, they invest a majority of their accumulated corpus in equity or equity-related instruments. What makes this asset class desirable is its tendency to deliver healthy returns. However, given the volatility equity markets are subjected to, certain dos and don’ts have to be kept in mind before infusing capital in this asset class. Let’s find those out.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
           <div className="">
             <Button className="btn3" variant="outline-primary" href="https://bfccapital.com/prodigypro/" target="_blank"> Invest Now</Button>
           </div>
@@ -37,13 +37,12 @@ return (
     <div className="row">
       <div className="col-md-12">
         <div className="text-heading pb-4">
-          <h2>Best ELSS Funds : Reality or Myth ?</h2>
+          <h2>What is New Fund Offer (NFO) in a mutual fund ?</h2>
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p>Given the number of economic influences and vulnerabilities the equity market is susceptible to, it is advisable that all fundamentals fuelling an ELSS scheme’s growth be observed closely and scrutinised for irregularities or flaws in compounding strategy before investing.</p>
-          <p>Investors also need to assure that the underlying funds of the ELSS scheme in their portfolio are monitored and switched if required to avoid any kickbacks from the global market. Also, the tax benefits offered under the scheme and the quantum of investment should be sufficient to accommodate the tax liability the investor is to attract.</p>
-          <p>In simple terms, the best ELSS Funds are those that match investment objectives and do not compromise on returns on the pretext of offering tax benefits.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
     </div>
@@ -54,12 +53,12 @@ return (
     <div className="row">
       <div className="col-md-12">
         <div className="text-heading pb-4">
-          <h2>How to select the Best ELSS Funds ? </h2>
+          <h2>Types of  New Fund Offers (NFOs.)</h2>
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p>ELSS funds have a lock-in period, which means there is little an investor can do if his funds are parked in the wrong scheme, which is why when it comes to investing in ELSS plans, seeking professional assistance is the only way to go. Each investor must be isolated and diagnosed separately for obligations and liabilities before a financial solution can be tailored to their specific needs.</p>
-          <p>Herein, the first step is to prioritise. Among other things, one must be clear on their investment goal; is it simply to save money on taxes, or are they aiming for a specific volume of gains? In addition, the amount they wish to accumulate, the duration of their investment, and the estimated tax outgo must all be considered. These variables must be communicated to the professional assisting the investor in order to shortlist an ELSS plan compatible with the former's risk profile.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
     </div>
@@ -70,17 +69,13 @@ return (
     <div className="row">
       <div className="col-md-12">
         <div className="text-heading pb-4">
-          <h2>Who should invest in ELSS Mutual Funds ?</h2>
+          <h2>How does NFO work ?</h2>
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p>ELSS Mutual Funds help investors save money on taxes. However, selecting an investment option that suits them best can be challenging. Read on to figure out who should invest in ELSS funds.</p>
-          <p><b>People Looking to Save Tax</b></p>
-          <p>Everyone wants to save money on taxes, and ELSS funds are the most suitable tax-saving options. Investments made in ELSS Funds qualify for annual tax deductions of up to Rs.1,50,000. The asset class is an absolute favourite among salaried and business class investors. Also, any gains made under ELSS Funds are identified as long-term capital gains and therefore are tax-free up to a limit of Rs. 1,00,000. The gains made over and above this threshold are taxed at a mere 10%.</p>
-          <p><b>Wealth Accumulation</b></p>
-          <p>ELSS Funds are an ideal wealth-building tool for people who can stay invested for long. Investors with a relatively high-risk appetite and willingness to stay invested for longer periods can accumulate wealth over time. This means they can benefit from the power of compounding by allowing the investment enough time to grow.</p>
-          <p><b>Those Planning a Purchase</b></p>
-          <p>ELSS funds are an ideal stepping stone for those planning a purchase or eyeing a goal, be it short or long term, due to their tendency to generate better returns. When allowed sufficient time to grow and managed actively, the Best ELSS funds can fetch above-normal returns, helping investors achieve their long and short-term objectives, from buying a house or car purchase to retirement and child education planning. However, investors must seek professional help before investing in ELSS schemes, ensuring that the investment is monitored actively by a certified professional.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+         
         </div>
       </div>
     </div>
@@ -91,19 +86,12 @@ return (
     <div className="row">
       <div className="col-md-12">
         <div className="text-heading pb-4">
-          <h2>Benefits of Investing in ELSS Mutual Funds</h2>
+          <h2>Benefits of Investing in an NFO</h2>
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p> There are multiple Benefits of Investing in ELSS Mutual Funds. Listed below are some of those-</p>
-          <p><b>Tax Saving </b></p>
-          <p>One of the primary benefits of investing in ELSS mutual funds is tax saving. ELSS schemes enjoy tax benefits listed under Section 80C of the Income Tax Act. As per the governing provisions, investors can claim a tax deduction of up to Rs 1,50,000 a year by investing in ELSS schemes, saving up to Rs 46,800 a year on taxes.</p>
-          <p><b>Better Post-Tax Returns</b></p>
-          <p>Long-term capital gains made from ELSS are tax-free up to a limit of Rs. 1,00,000. Also, gains made over and above this limit are taxed at 10% only. In short, lower tax rates and higher returns ensure the best-possible post-tax returns.</p>
-          <p><b>High Returns</b></p>
-          <p>Inherently, ELSS investments are vulnerable to market fluctuations. However, this vulnerability can be used to the investor's advantage if the investment is given enough time to grow in the market. Over time, ELSS funds benefit from compounding laws and produce higher returns.</p>
-          <p><b>Multiple Investment Modes</b></p>
-          <p>Investors can enter ELSS schemes in one go by making a one-time lump sum investment, or they can invest in portions through regular monthly contributions via an SIP plan. This "flexibility" is what makes ELSS schemes an investor favourite.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
     </div>
@@ -114,19 +102,12 @@ return (
     <div className="row">
       <div className="col-md-12">
         <div className="text-heading pb-4">
-          <h2>Features of Equity Linked Saving Schemes (ELSS Funds)</h2>
+          <h2>Newly launched NFO mutual funds in January 2023</h2>
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p> Many features make ELSS Funds an ideal investment option for investors, be it people looking to save money on tax or those eyeing a specific goal. Let's look at some of their noteworthy features.</p>
-          <ul>
-            <li>ELSS Funds invest at least 80 per cent of their corpus in equity and equity-related instruments, making them a high-yielding asset class.</li>
-            <li>ELSS mutual funds have a mandatory lock-in period of 3 years, meaning the investor cannot liquidate units from the ELSS plan until the conclusion of the lock-in period.</li>
-            <li>ELSS funds also do not have any upper investment limit, although the minimum investment threshold tends to vary across fund houses.</li>
-            <li>ELSS Funds qualify for tax deductions listed under Section 80 C of the Income Tax Act. Investors are eligible for a tax deduction of up to Rs. 1,50,000 on investments, saving up to Rs. 46,800 on taxes yearly.</li>
-            <li>ELSS schemes are open-ended, meaning there is no upper limit to the time duration one can remain invested in an ELSS scheme.</li>
-            <li>The gains made through ELSS funds are tax exempted up to Rs. 1,00,000. Gains made over and above this threshold are taxed at 10 per cent.</li>
-          </ul>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
     </div>
@@ -137,11 +118,12 @@ return (
     <div className="row">
       <div className="col-md-12">
         <div className="text-heading pb-4">
-          <h2>Best ELSS Mutual Funds to invest in 2023 ?</h2>
+          <h2>upcoming NFO mutual fund 2023</h2>
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p> Listed below are some ELSS schemes that can be considered the "best" in the present scenario. However, we must remind investors that there are no universally compatible or beneficial ELSS schemes. Each investor's needs are different, and therefore the investments they make should be considered separately. Please get in touch with us to figure out schemes that meet your needs.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           <div className="mutual-fund-scheme pt-3">
           <div class="table-responsive">
           <table className="table table-bordered">
@@ -155,21 +137,21 @@ return (
             <tbody>
               {/* ------------------- scheme-item -------------- */}
               <tr>
-                <th scope="row" rowSpan={5} > <span className="mutual-fund-scheme-category" style={{top:"90px"}}>ELSS</span></th>
-                <td>Canara Robeco Equity Tax Saver Fund</td>
-                <td rowSpan={5}> <span className="mutual-fund-scheme-category-year" style={{top:"90px"}}>7 Years</span></td>
+                <th scope="row" rowSpan={5} > <span className="mutual-fund-scheme-category" style={{top:"90px"}}>Lorem Ipsum</span></th>
+                <td>Lorem Ipsum is simply dummy text</td>
+                <td rowSpan={5}> <span className="mutual-fund-scheme-category-year" style={{top:"90px"}}>0 Years</span></td>
               </tr>
               <tr>
-                <td>Mirae Asset Tax Saver Fund</td>
+                <td>Lorem Ipsum is simply dummy text</td>
               </tr>
               <tr>
-                <td>Parag Parikh Tax Saver Fund</td>
+                <td>Lorem Ipsum is simply dummy text</td>
               </tr>
               <tr>
-                <td>Kotak Tax Saver Fund</td>
+                <td>Lorem Ipsum is simply dummy text</td>
               </tr>
                <tr>
-                <td>Quant Tax Saver Fund</td>
+                <td>Lorem Ipsum is simply dummy text</td>
               </tr>
               {/* ------------------- scheme-item-emd -------------- */}
             </tbody>
@@ -186,18 +168,19 @@ return (
     <div className="row">
       <div className="col-md-12">
         <div className="text-heading pb-4">
-          <h2>Why should you avoid the Best ELSS Funds ?</h2>
+          <h2>How to invest in NFO through Prodigy Pro ?</h2>
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p> The best investment plans are those that offer consistent returns over the long term. Sometimes, however, the ELSS schemes topping the charts descend the rankings and never recover, meaning they're inconsistent performers. The fact that ELSS plans come with a 3-year lock-in period only compounds the problem, as the investor cannot salvage the money parked in the fund for the time being. So, it is safe to assume that there are other parameters besides previous yields to shortlist ELSS funds for investment.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          
         </div>
       </div>
     </div>
   </div>
 </section>
 {/* ==================== Eaq Section Start ================== */}
-<section className="fqa  mutual-fund-faq">
+{/* <section className="fqa pt-lg-5 pb-lg-5 mutual-fund-faq">
   <div className="container">
     <div className="row">
       <div className="col-md-12 text-center pb-4">
@@ -208,7 +191,7 @@ return (
     <div className="row shadowc">
       <div className="col-md-12">
         <div className="mutual-fund-faq-content">
-          <Accordion>
+          <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0" className="#">
               <Accordion.Header><span className="faqs_greenDot"></span> What is the minimum investment duration (Lock-in Period) for ELSS Funds ? </Accordion.Header>
               <Accordion.Body>
@@ -286,7 +269,7 @@ return (
             <Accordion.Item eventKey="10">
               <Accordion.Header><span className="faqs_greenDot"></span> How to invest in ELSS Mutual Funds online ? </Accordion.Header>
               <Accordion.Body>
-                <p>You can invest in ELSS Funds the same way you invest in other Mutual Funds, and the easiest way to do this is through the <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> app. The app is designed to help investors invest, track, and monitor all of their funds.</p>
+                <p>You can invest in ELSS Funds the same way you invest in Mutual Funds, and the easiest way to do this is through the PRODIGY Pro app. The app is designed to help investors invest, track, and monitor all of their funds.</p>
               </Accordion.Body>
               <div className="faqs_btm_border"></div>
             </Accordion.Item>
@@ -316,9 +299,9 @@ return (
       </div>
     </div>
   </div>
-</section>
+</section> */}
 {/* ====================  Eaq Section End ================== */}
 </>
 )
 }
-export default ElssMutualFund;
+export default NewFundOffers;

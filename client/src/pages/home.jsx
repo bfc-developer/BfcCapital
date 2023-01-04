@@ -1,11 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Button from 'react-bootstrap/Button';
 import Accordion from 'react-bootstrap/Accordion';
 import { FaRupeeSign, FaCity, FaSmile, FaUserPlus, FaUserTie, FaCalendarAlt, FaComment, FaGooglePlay, FaApple, FaSuitcase, FaPlus } from "react-icons/fa";
 import 'animate.css';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import Video from 'react-responsive-video';
+import Button from 'react-bootstrap/Button';
 import dateFormat from 'dateformat';
+import Video from 'react-responsive-video';
 import Axios from 'axios';
 import React, { useState, useEffect } from "react";
 // import BackTopBack from '../component/back-to-top';
@@ -21,7 +21,7 @@ function Home() {
 
   useEffect(() => {
     Axios.get('https://bfccapital.com/blog/wp-json/wp/v2/posts?per_page=3').then(res => {
-      console.log("hello", res.data)
+      // console.log("hello", res.data)
       setBlogs(res.data)
     })
 
@@ -56,7 +56,7 @@ function Home() {
                 <div className="header-content">
                   <h1 className="header-title">Delivering Peace of Mind  <span className="sub-title"><br /> Since 2 Decades </span></h1>
                   <div className="header-description mb-24">
-                    <p className="pb-lg-3">Building investor trust is one thing, maintaining it is another. We strive for both, and that's why today, we are the biggest mutual fund distributor in the region.</p>
+                    <p className="pb-lg-3">Building investors' trust is one thing, maintaining it is another. We strive for both, and that's why today, we are the biggest mutual fund distributor in the region.</p>
                   </div>
                 </div>
                 <div className="pb-4">
@@ -713,7 +713,8 @@ function Home() {
                           <p className="blog-date"> <FaCalendarAlt /> &nbsp; {dateFormat(val.date, "mmmm dS, yyyy")}</p>
                           <p className="blog-comment"> <FaComment /> {val.comment_status=="open" ? 1 :0 }</p>
                         </div>
-                        <p>{val.excerpt.rendered.replace('<p>', '').replace('&#8217;', "'").split(" ").slice(0, 14).join(" ").replace(/(<([^>]+)>)/ig, '')}...</p>
+                        <p className="blog-disc">{`${val.excerpt.rendered.replace('<p>', '').replace('&#8217;', "'").split(" ").join(" ").replace(/(<([^>]+)>)/ig, '').split("?")[0]} ?`}</p>
+                        <p>{`${val.excerpt.rendered.replace('<p>', '').replace('&#8217;', "'").split(" ").slice(0, 16).join(" ").replace(/(<([^>]+)>)/ig, '').split("?")[1]}`}...</p>
                         <div className="blog-btn">
                           <a href={val.yoast_head_json.canonical}>READ MORE</a>
                         </div>
@@ -736,10 +737,10 @@ function Home() {
               {/* <p className="mb-5">We have conducted 200+ presentations on Financial Planning. Check out some prominent ones here</p> */}
             </div>
           </div>
-          <div className="row">
-            <div className=" col-md-7">
               <AnimationOnScroll animateIn="animate__zoomIn">
                 <Accordion>
+                <div className="row">
+                <div className="col-md-7">
                   <Accordion.Item eventKey="0" className="#">
                     <Accordion.Header> Why should I associate with BFC and not with a Leading Bank or Mutual Fund Distributor ? </Accordion.Header>
                     <Accordion.Body>
@@ -755,15 +756,11 @@ function Home() {
                   <Accordion.Item eventKey="2">
                     <Accordion.Header> If I invest with BFC, does my money go to them or some other company ? </Accordion.Header>
                     <Accordion.Body>
-                    BFC Capital is an intermediary facilitating investment-related transactions. Although we help monitor and manage our clients' investments, we do not have access to the money they invest. The industry structure does not leave any scope for mismanagement of funds, meaning the money invested from an investor's bank account automatically falls in the respective fund/scheme's account and vice-versa, with no scope for third-party intrusion.
+                    BFC Capital is an intermediary facilitating investment-related transactions. Although we help monitor and manage our clients' investments, we do not have access to the money they invest. The industry structure does not leave any scope for mismanagement of funds, meaning the money invested from an investor's bank account automatically credited in the respective fund/scheme's account and vice-versa, with no scope for third-party intrusion.
                     </Accordion.Body>
                   </Accordion.Item>
-                </Accordion>
-              </AnimationOnScroll>
-            </div>
-            <div className="col-md-5 ">
-              <AnimationOnScroll animateIn="animate__zoomIn">
-                <Accordion defaultActiveKey="">
+                  </div>
+                  <div className="col-md-5">
                   <Accordion.Item eventKey="3">
                     <Accordion.Header> Who all can invest with BFC ? </Accordion.Header>
                     <Accordion.Body>
@@ -782,10 +779,10 @@ function Home() {
                     Investors can check the real-time status of their entire household's accounts by accessing the "Portfolio" option on Prodigy Pro. Additionally, they can contact their relationship manager over call or via WhatsApp and demand a detailed account statement.
                     </Accordion.Body>
                   </Accordion.Item>
+                  </div>
+                  </div>
                 </Accordion>
               </AnimationOnScroll>
-            </div>
-          </div>
         </div>
       </section>
       {/* ====================  Eaq Section End ================== */}

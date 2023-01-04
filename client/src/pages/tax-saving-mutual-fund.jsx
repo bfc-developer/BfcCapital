@@ -63,7 +63,7 @@ return (
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p> Choosing the best investment schemes and figuring out the amount that will be saved can be a task. Investors can start by gaining an idea of the amount of tax they can save when investing in tax-saving mutual funds using an ELSS Calculator. Listed below are some other pointers investors must consider before choosing to invest in tax-saving mutual funds or ELSS Funds.</p>
+          <p> Choosing the best investment schemes and figuring out the amount that will be saved can be a task. Investors can start by gaining an idea of the amount of tax they can save when investing in tax-saving mutual funds using an <a href="/elss-calculator" target="_blank" className="text-bold text-primary"> <u>ELSS Calculator</u></a>. Listed below are some other pointers investors must consider before choosing to invest in tax-saving mutual funds or ELSS Funds.</p>
           <p><b>Investor's Risk Profile</b></p>
           <p>Since ELSS Funds are equity-linked, they are vulnerable to market fluctuations. Hence, before choosing them as an investment alternative, investors should carefully analyze their risk-taking capacity and check the structure of their current portfolio. The best investments are those that are compatible with the investor's profile.</p>
           <p><b>Scheme / Fund History</b></p>
@@ -73,9 +73,9 @@ return (
           <p><b>Professional Recommendation</b></p>
           <p>Choosing and investing in ELSS Funds can be challenging at times, and therefore, it is advisable to get professional assistance. Usually, mutual fund distributors are equipped with the tools needed to evaluate schemes based on all the necessary parameters.</p>
           <p><b>How to invest in tax-saving mutual funds?</b></p>
-          <p>Investing in tax-saving mutual funds or ELSS schemes is similar to investing in other mutual funds. However, to invest in mutual funds, an investor needs to be KYC compliant. One can invest in tax-saving mutual funds through online platforms like PRODIGY Pro.</p>
+          <p>Investing in tax-saving mutual funds or ELSS schemes is similar to investing in other mutual funds. However, to invest in mutual funds, an investor needs to be KYC compliant. One can invest in tax-saving mutual funds through online platforms like <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a>.</p>
           <ul>
-            <li>Log into the <a  href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank" className="text-bold text-dark"> PRODIGY Pro</a> app</li>
+            <li>Log into the <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u></a> app</li>
             {/* <li>Pick the mutual fund from the various fund houses available</li> */}
             <li>Pick a tax-saving mutual fund that best suits your risk profile and investment objective.</li>
             <li>Select the amount you are planning to invest towards the fund and the investment mode, i.e. via an SIP or in a lump sum.</li>
@@ -238,7 +238,7 @@ return (
   </div>
 </section>
 {/* ==================== Eaq Section Start ================== */}
-<section className="fqa pt-lg-5 pb-lg-5 mutual-fund-faq">
+<section className="fqa  mutual-fund-faq">
   <div className="container">
     <div className="row">
       <div className="col-md-12 text-center pb-4">
@@ -249,7 +249,7 @@ return (
     <div className="row shadowc">
       <div className="col-md-12">
         <div className="mutual-fund-faq-content">
-          <Accordion defaultActiveKey="0">
+          <Accordion >
             <Accordion.Item eventKey="0" className="#">
               <Accordion.Header><span className="faqs_greenDot"></span> How much tax can be saved if I invest in multiple Tax-Saving Mutual Funds ? </Accordion.Header>
               <Accordion.Body>
@@ -269,7 +269,7 @@ return (
             <Accordion.Item eventKey="2">
               <Accordion.Header><span className="faqs_greenDot"></span> How can I track Tax-Saving Mutual Funds online ? </Accordion.Header>
               <Accordion.Body>
-                <p>Investors can track their tax-saving mutual funds on the PRODIGY Pro App. The PRODIGY Pro App helps investors find investment possibilities and execute, track and manage their investments.</p>
+                <p>Investors can track their tax-saving mutual funds on the <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> App. The <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> App helps investors find investment possibilities and execute, track and manage their investments.</p>
               </Accordion.Body>
               <div className="faqs_btm_border"></div>
             </Accordion.Item>

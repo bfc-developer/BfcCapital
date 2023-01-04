@@ -280,16 +280,18 @@ const LumpsumCalculator = () => {
       </section>
 
       {/* ==================== Eaq Section Start ================== */}
-      <section className="fqa pt-lg-5 pb-lg-5 mutual-fund-faq">
+      <section className="fqa pt-lg-3 mutual-fund-faq">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center pb-4">
+            <h4 className="fqa-top-text mb-4 pt-3">FAQs</h4>
+            <div className="contact-pageTitleBorder"></div>
             </div>
           </div>
           <div className="row shadowc">
             <div className="col-md-12">
               <div className="mutual-fund-faq-content">
-                <Accordion defaultActiveKey="0">
+                <Accordion >
                   <Accordion.Item eventKey="0" className="#">
                     <Accordion.Header><span className="faqs_greenDot"></span> What is an FD Calculator ? </Accordion.Header>
                     <Accordion.Body>

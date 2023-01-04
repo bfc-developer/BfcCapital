@@ -28,6 +28,7 @@ import VirtualRelationshipManager from "./pages/virtual-relationship-manager";
 import RelationshipManager from "./pages/relationship-manager";
 import Request_a_Callback from "./pages/request-a-callback";
 import Privacy_Policy from "./pages/privacy-policy";
+import NewFundOffers from "./pages/new-fund-offers"
 
 // import {BasicTabs} from "./pages/scheme-performance";
 // import SchemePerformanceSingle from "./pages/scheme-performance-single"
@@ -67,6 +68,8 @@ const App = () => {
         <Route path="/virtual-relationship-manager" element={<VirtualRelationshipManager />}></Route>
         <Route path="/request-a-callback" element={<Request_a_Callback />}></Route>
         <Route path="/privacy-policy" element={<Privacy_Policy />}></Route>
+        <Route path="/new-fund-offers" element={<NewFundOffers />}></Route>
+
         {/* <Route path="/scheme-performance" element={<BasicTabs/>}></Route>
         <Route path="/scheme-performance-single" element={<SchemePerformanceSingle/>}></Route> */}
         

@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
   
@@ -22,6 +21,7 @@ return (
           <li><a href="/best-sip-plans-to-invest">Best SIP Plans to Invest</a></li>
           <li><a href="/tax-saving-mutual-fund">Best Tax Saving Mutual Funds</a></li>
           <li><a href="/best-mutual-fund-for-lumpsum-investment">Best Mutual Fund for Lumpsum Investment</a></li>
+          <li><a href="/new-fund-offers">New Fund Offers</a></li>
           {/* <li><a href="/scheme-performance">Scheme Performance</a></li> */}
         </ul>
       </li>

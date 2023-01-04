@@ -76,9 +76,9 @@ return (
           <div className="pageTitleBorder"></div>
         </div>
         <div className="text-description">
-          <p> Investing in the best mutual funds online is quite an easy and hassle-free method. However, the investor needs to be KYC compliant to invest in mutual funds. One can invest in the best mutual funds through online platforms like PRODIGY Pro -</p>
+          <p> Investing in the best mutual funds online is quite an easy and hassle-free method. However, the investor needs to be KYC compliant to invest in mutual funds. One can invest in the best mutual funds through online platforms like <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank" className="text-bold text-dark"> <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> </a> -</p>
           <ul className="pb-2">
-            <li>Log into the <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank" className="text-bold text-dark"> PRODIGY Pro </a> app.</li>
+            <li>Log into the <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank" className="text-bold text-dark"> <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> </a> app.</li>
             <li>Select a mutual fund that best suits your risk profile and investment objective.</li>
             <li>Select the amount you are planning to invest in the fund and your mode of investment, i.e. via an SIP or in a lump sum.</li>
           </ul>
@@ -101,7 +101,7 @@ return (
           <p><b>Professional Money Management</b></p>
           <p>Mutual Funds are managed by qualified fund managers, each backed by a team of analysts to research the market and predict its ups and downs, saving the investors the trouble of managing their finances.</p>
           <p><b>Pocket-friendly Investing</b></p>
-          <p>Mutual fund investments are easy on the pocket, and investors can accumulate considerable wealth by investing in Systematic Investment Plans (SIPs). Consequently, they don't have to make unnecessary sacrifices to accommodate the investment. And the best part is that they can figure out the amount they need to invest for a specific objective using an SIP Calculator.</p>
+          <p>Mutual fund investments are easy on the pocket, and investors can accumulate considerable wealth by investing in Systematic Investment Plans (SIPs). Consequently, they don't have to make unnecessary sacrifices to accommodate the investment. And the best part is that they can figure out the amount they need to invest for a specific objective using an <a href="/sip-calculator" target="_blank" className="text-bold text-primary"><u>SIP Calculator</u></a>. </p>
           <p><b>Automatic Diversification</b></p>
           <p>Mutual funds invest their accumulated corpus in various assets, allowing investors the luxury of diversifying, bringing down their risk liability whilst maximizing the returns they earn. </p>
           <p><b>Healthy Returns</b></p>
@@ -441,7 +441,7 @@ return (
   </div>
 </section>
 {/* ==================== Eaq Section Start ================== */}
-<section className="fqa pt-lg-5 pb-lg-5 mutual-fund-faq">
+<section className="fqa mutual-fund-faq">
   <div className="container">
     <div className="row">
       <div className="col-md-12 text-center pb-4">
@@ -452,7 +452,7 @@ return (
     <div className="row shadowc">
       <div className="col-md-12">
         <div className="mutual-fund-faq-content">
-          <Accordion defaultActiveKey="0">
+          <Accordion >
             <Accordion.Item eventKey="0" className="#">
               <Accordion.Header><span className="faqs_greenDot"></span> What is the maturity period in Mutual Funds ? </Accordion.Header>
               <Accordion.Body>
@@ -473,7 +473,7 @@ return (
             <Accordion.Item eventKey="2">
               <Accordion.Header><span className="faqs_greenDot"></span> How to track all Mutual Fund investments at one platform? </Accordion.Header>
               <Accordion.Body>
-                <p>Investors can track all their mutual fund investments on the PRODIGY Pro app. The app is designed to simplify mutual fund investing and help investors track and manage their entire portfolio. Investors can invest in mutual fund schemes on the go with this app.</p>
+                <p>Investors can track all their mutual fund investments on the <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> app. The app is designed to simplify mutual fund investing and help investors track and manage their entire portfolio. Investors can invest in mutual fund schemes on the go with this app.</p>
               </Accordion.Body>
               <div className="faqs_btm_border"></div>
             </Accordion.Item>
@@ -487,7 +487,7 @@ return (
             <Accordion.Item eventKey="4">
               <Accordion.Header><span className="faqs_greenDot"></span> How do I withdraw money from Mutual Funds? </Accordion.Header>
               <Accordion.Body>
-                <p>One can withdraw money from a mutual fund scheme by submitting a request with their broker or distributor, either online or physically. Also, the users of PRODIGY Pro can submit redemption requests on the app in just a few clicks.</p>
+                <p>One can withdraw money from a mutual fund scheme by submitting a request with their broker or distributor, either online or physically. Also, the users of <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> can submit redemption requests on the app in just a few clicks.</p>
               </Accordion.Body>
               <div className="faqs_btm_border"></div>
             </Accordion.Item>
@@ -519,7 +519,12 @@ return (
             <Accordion.Item eventKey="6">
               <Accordion.Header><span className="faqs_greenDot"></span> Are Mutual Funds taxable? </Accordion.Header>
               <Accordion.Body>
-                <p>Yes, mutual funds are taxable for both long as well as short-term gains. However, the gains made after a duration of one year, termed as long-term gains, are tax exempted up to a limit of Rs. 1 Lakh and are taxed at the rate of 10 per cent if the limit is breached. Also, the profits made before one year, termed short-term gains, are taxable at the rate of 15 percent.</p>
+                <p><b>Equity Mutual Funds:</b></p> 
+                <p>Long-term gains (gains made after holding the investment for at least 1 year) are tax-exempt up to Rs. 1 Lakh and taxed at 10% for gains if the limit is breached.</p>
+                <p>Short-term gains (gains made within 1 year of holding the investment) are taxed at 15%.</p>
+                <p><b>Debt Mutual Funds:</b></p> 
+                <p>Gains made within 3 years of holding the investment (Short-term gains) are taxed as per the investor's applicable tax slab.</p>
+                <p>Gains made after 3 years of holding the investment (Long-term gains) are taxed at 20% with indexation (a computing method to accommodate inflation).</p> 
               </Accordion.Body>
               <div className="faqs_btm_border"></div>
             </Accordion.Item>
@@ -542,7 +547,7 @@ return (
                 <p><b>Cons</b></p>
                 <p>- Fluctuating returns.</p>
                 <p>- Less control on where money is invested.</p>
-                <p>- Regular tracking and analysis required by a professional</p>
+                <p>- Regular evaluations may be required.</p>
                 <p>- Involves costs like fund manager's fees, exit load on early withdrawals, etc.</p>
               </Accordion.Body>
               <div className="faqs_btm_border"></div>
