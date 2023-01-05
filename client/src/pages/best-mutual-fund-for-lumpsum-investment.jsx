@@ -168,7 +168,7 @@ return (
           <p><b>Investment in Big Amounts</b></p>
           <p>One of the primary advantages of lumpsum mutual fund investments is that investors can make a large investment in one go. As a result, when the market escalates, the investment’s value increases rapidly.</p>
           <p><b>No Investment Commitments</b></p>
-          <p>SIP investments require regular contributions from the investor, thereby mandating a more disciplined approach towards investing. Lump sum investments, on the other hand, allow for a one-time contribution, requiring little to no consistent efforts from the investor.</p>
+          <p>SIP investments require regular contributions from the investor, thereby mandating a more disciplined approach towards investing. Lumpsum investments, on the other hand, allow for a one-time contribution, requiring little to no consistent efforts from the investor.</p>
           <p><b>Convenience</b></p>
           <p>Investments in mutual funds via lumpsum are way more convenient than SIP. In lumpsum investments, investors can invest in one go and watch the investment grow, whereas in SIPs, investors are required to make timely payments.</p>
           <p><b>Better Utilization of Funds</b></p>
