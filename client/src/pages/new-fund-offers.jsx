@@ -10,7 +10,7 @@ return (
     <div className="row">
     <div className="col-md-5" id="mobile">
         <div className="mutual-fund-img">
-          <img src="../assets/img/Best-ELSS-Fund.webp" className="img-fluid"/>
+          <img src="../assets/img/nfo.webp" className="img-fluid"/>
         </div> 
       </div>
       <div className="col-md-7">
@@ -25,7 +25,7 @@ return (
       </div>
       <div className="col-md-5" id="desktop">
         <div className="mutual-fund-img">
-          <img src="../assets/img/Best-ELSS-Fund.webp" className="img-fluid"/>
+          <img src="../assets/img/nfo.webp" className="img-fluid"/>
         </div>
         
       </div>
