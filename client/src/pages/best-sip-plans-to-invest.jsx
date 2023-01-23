@@ -21,7 +21,7 @@ return (
           <div className="pageTitleBorder"></div>
           <p>Looking for the Best SIP Plans to invest can be a very tall order, especially for the layman, simply because doing so requires a special know-how of the underlying funds, among other aspects of the financial universe. Let’s dive in and discuss the many myths that accompany this asset class and the mistakes investors make when shortlisting SIPs for investment.</p>
           <div className="pt-3">
-            <Button className="btn3" variant="outline-primary" href="https://bfccapital.com/prodigypro/" target="_blank"> Invest Now</Button>
+            <Button className="btn3" variant="outline-primary" href="/contact-us" target="_blank"> Reach Us</Button>
           </div>
         </div>
       </div>

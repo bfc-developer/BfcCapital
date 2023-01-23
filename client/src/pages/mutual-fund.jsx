@@ -24,7 +24,7 @@ return (
           <p>Mutual Funds are among the best investment options out there because of their inherent versatility, so much so that they are a good fit for seasoned and new investors alike. However, the same versatility makes identifying the best mutual fund schemes tricky. That said, it can still be done with some proper, first-hand research.</p>
           <p>Read on to figure out how. </p>
           <div className="pt-3">
-            <Button className="btn3" variant="outline-primary" href="https://bfccapital.com/prodigypro/" target="_blank"> Invest Now</Button>{' '}
+            <Button className="btn3" variant="outline-primary" href="/contact-us" target="_blank">Reach Us</Button>{' '}
           </div>
         </div>
       </div>

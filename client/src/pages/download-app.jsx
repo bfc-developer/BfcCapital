@@ -49,11 +49,12 @@ const DownloadApp = () => {
                   <div className="col-md-6">
                     <div className="download-btn ">
                       <div className="android-btn px-lg-3">
-                        <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank"><img src="../assets/img/app-store.webp" className="img-fluid  download-btn-img" /> </a>
+                        {/* <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank"><img src="../assets/img/app-store.webp" className="img-fluid  download-btn-img" /> </a> */}
+                        <a href="https://play.google.com/store/apps/details?id=tvs.com.bfc" target="_blank"><img src="../assets/img/app-store.webp" className="img-fluid  download-btn-img" /> </a>
                       </div>
-                      <div className="ios-btn">
+                      {/* <div className="ios-btn">
                         <a href="https://apps.apple.com/in/app/mf-prodigy/id1575700744" target="_blank"><img src="../assets/img/play-store.webp" className="img-fluid  download-btn-img" /></a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -65,11 +66,12 @@ const DownloadApp = () => {
                   <div className="col-md-12">
                     <div className="download-btn ">
                       <div className="android-btn px-lg-3">
-                        <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank"><img src="../assets/img/app-store.webp" className="img-fluid  download-btn-img" /> </a>
+                        {/* <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank"><img src="../assets/img/app-store.webp" className="img-fluid  download-btn-img" /> </a> */}
+                        <a href="https://play.google.com/store/apps/details?id=tvs.com.bfc" target="_blank"><img src="../assets/img/app-store.webp" className="img-fluid  download-btn-img" /> </a>
                       </div>
-                      <div className="ios-btn">
+                      {/* <div className="ios-btn">
                         <a href="https://apps.apple.com/in/app/mf-prodigy/id1575700744" target="_blank"><img src="../assets/img/play-store.webp" className="img-fluid  download-btn-img" /></a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

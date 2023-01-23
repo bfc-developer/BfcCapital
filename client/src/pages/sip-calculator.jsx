@@ -351,7 +351,7 @@ const SipCalculator = () => {
                           </div>
                           <div className="row px-5 pt-lg-5 pt-sm-5">
                             <div className="col-md-12 text-right text-xs-center">
-                              <a className="btn-custom" href="https://bfccapital.com/prodigypro/" target="_blank">Invest Now</a>
+                              <a className="btn-custom" href="/contact-us" target="_blank">Reach Us</a>
                             </div>
                           </div>
                         </div>

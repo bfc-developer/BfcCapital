@@ -20,7 +20,7 @@ return (
           <div className="pageTitleBorder"></div>
           <p>Moving forward, we will list some schemes that have been doing exceptionally well in their respective categories and also educate you on what makes a good plan better. However, investors should make note that no such projection is ever absolute. Mutual Fund yields are dependent on market trajectory and certain other economic factors and, therefore, should be picked after proper professional consultation.</p>
           <div className="pt-3">
-            <Button className="btn3" href="https://bfccapital.com/prodigypro/" target="_blank" variant="outline-primary"> Invest Now</Button>
+            <Button className="btn3" href="/contact-us" target="_blank" variant="outline-primary"> Reach Us</Button>
           </div>
         </div>
       </div>

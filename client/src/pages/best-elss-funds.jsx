@@ -19,7 +19,7 @@ return (
           <div className="pageTitleBorder"></div>
           <p>Let’s just start by understanding the basics of ELSS funds. In simple terms, ELSS funds are Mutual Funds that offer tax benefits under Section 80C of the Income Tax Act. As mandated by regulatory bodies, they invest a majority of their accumulated corpus in equity or equity-related instruments. What makes this asset class desirable is its tendency to deliver healthy returns. However, given the volatility equity markets are subjected to, certain dos and don’ts have to be kept in mind before infusing capital in this asset class. Let’s find those out.</p>
           <div className="">
-            <Button className="btn3" variant="outline-primary" href="https://bfccapital.com/prodigypro/" target="_blank"> Invest Now</Button>
+            <Button className="btn3" variant="outline-primary" href="/contact-us" target="_blank"> Reach Us</Button>
           </div>
         </div>
       </div>
@@ -286,7 +286,7 @@ return (
             <Accordion.Item eventKey="10">
               <Accordion.Header><span className="faqs_greenDot"></span> How to invest in ELSS Mutual Funds online ? </Accordion.Header>
               <Accordion.Body>
-                <p>You can invest in ELSS Funds the same way you invest in other Mutual Funds, and the easiest way to do this is through the <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> app. The app is designed to help investors invest, track, and monitor all of their funds.</p>
+                <p>You can invest in ELSS Funds the same way you invest in other Mutual Fund schemes, and the easiest way to do this is through the <a href="/download-app" target="_blank" className="text-bold text-primary"> <u> PRODIGY Pro</u> </a> app. The app is designed to help investors invest, track, and monitor all of their funds.</p>
               </Accordion.Body>
               <div className="faqs_btm_border"></div>
             </Accordion.Item>

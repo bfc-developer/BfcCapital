@@ -1,4 +1,4 @@
 module.exports = {
-    // commonUrl:'https://bfccapital.com/'
-    commonUrl:'http://localhost:5012/api/'
+    commonUrl:'https://bfccapital.com/api/'
+    // commonUrl:'http://localhost:5012/api/'
 }

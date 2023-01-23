@@ -20,7 +20,7 @@ return (
           <div className="pageTitleBorder"></div>
           <p>Given the scarcity of lumpsum investment options that fetch reasonable returns, investing in a scheme that allows parking funds in one go can get tricky, especially with banks pulling down FD returns every other quarter. Settling for below-par returns is obviously a no-go. So, what does one do? Yes, mutual funds can get the job done. They tend to offer reasonably healthy returns and are relatively safe. But which one should an investor opt for? Which one is the best Mutual Fund for Lumpsum Investment? These, probably, are the questions haunting you. Say no more, we're here to help.</p>
           <div className="">
-            <Button className="btn3" variant="outline-primary" href="https://bfccapital.com/prodigypro/" target="_blank"> Invest Now</Button>
+            <Button className="btn3" variant="outline-primary" href="/contact-us" target="_blank"> Reach Us</Button>
           </div>
         </div>
       </div>

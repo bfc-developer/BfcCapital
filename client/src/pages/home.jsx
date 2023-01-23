@@ -61,7 +61,7 @@ function Home() {
                 </div>
                 <div className="pb-4">
 
-                  <a href='https://bfccapital.com/prodigypro/' target={"_blank"}> <Button className="btn3" variant="outline-primary"> Get Started</Button></a>
+                  <a href="/contact-us" target={"_blank"}> <Button className="btn3" variant="outline-primary"> Reach Us</Button></a>
                 </div>
               </div>
             </div>
@@ -345,8 +345,9 @@ function Home() {
                       <p>Hit the icon below to download.</p>
                     </div>
                     <div className="button mt-sm-5">
-                      <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank" className="btn  animate__animated animate__zoomIn animate__delay-200ms" ><FaGooglePlay className='i' />Google Play</a>
-                      <a href="https://apps.apple.com/in/app/mf-prodigy/id1575700744" target="_blank" className="btn  animate__animated animate__zoomIn animate__delay-200ms" ><FaApple className='i' />App Store</a>
+                      {/* <a href="https://play.google.com/store/apps/details?id=com.bfc_mf.prodigy_app&pli=1" target="_blank" className="btn  animate__animated animate__zoomIn animate__delay-200ms" ><FaGooglePlay className='i' />Google Play</a> */}
+                      <a href="https://play.google.com/store/apps/details?id=tvs.com.bfc" target="_blank" className="btn  animate__animated animate__zoomIn animate__delay-200ms" ><FaGooglePlay className='i' />Google Play</a>
+                      {/* <a href="https://apps.apple.com/in/app/mf-prodigy/id1575700744" target="_blank" className="btn  animate__animated animate__zoomIn animate__delay-200ms" ><FaApple className='i' />App Store</a> */}
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-12" id="desktop">
@@ -843,7 +844,7 @@ function Home() {
                       Don’t take them lightly. Reach out to our <br />experts and make informed financial decisions.</p>
                   </div>
                   <div className="pt-2 pb-2">
-                    <a href='https://bfccapital.com/prodigypro/registration' target={"_blank"}><Button className="btn3" variant="outline-primary"> Create an account</Button></a>
+                    <a href='/contact-us' target={"_blank"}><Button className="btn3" variant="outline-primary"> Reach Us</Button></a>
                   </div>
                   </AnimationOnScroll>
                 </div>

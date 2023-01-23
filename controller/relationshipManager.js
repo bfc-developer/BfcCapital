@@ -51,23 +51,23 @@ module.exports = {
               <p><strong>Team BFC Capital</strong></p>
               </br> <img src="cid:filename" />
               `;
-          const transporter = nodemailer.createTransport({
-              service: 'gmail',
-              auth: {
-                  user: 'rajkumarbfcsofttech@gmail.com',
-                  pass: 'dmpycgstaxmxdbif',
-              },
-          });
+        //   const transporter = nodemailer.createTransport({
+        //       service: 'gmail',
+        //       auth: {
+        //           user: 'rajkumarbfcsofttech@gmail.com',
+        //           pass: 'dmpycgstaxmxdbif',
+        //       },
+        //   });
 
-        // var transporter = nodemailer.createTransport({
-        //     host: MailCredientail.MAIL_HOST,
-        //     port: MailCredientail.MAIL_PORT,
-        //     secureConnection: false,
-        //     auth: {
-        //         user: MailCredientail.MAIL_USERNAME,
-        //         pass: MailCredientail.MAIL_PASSWORD
-        //     }
-        // });
+        var transporter = nodemailer.createTransport({
+            host: MailCredientail.MAIL_HOST,
+            port: MailCredientail.MAIL_PORT,
+            secureConnection: false,
+            auth: {
+                user: MailCredientail.MAIL_USERNAME,
+                pass: MailCredientail.MAIL_PASSWORD
+            }
+        });
 
 
           transporter.sendMail({
@@ -91,23 +91,23 @@ module.exports = {
             <p>Contact No:- ${req.body.Mobile}</p>
             
              `;
-          const transporterAdmin = nodemailer.createTransport({
-              service: 'gmail',
-              auth: {
-                  user: 'rajkumarbfcsofttech@gmail.com',
-                  pass: 'dmpycgstaxmxdbif'
-              }
-          });
+        //   const transporterAdmin = nodemailer.createTransport({
+        //       service: 'gmail',
+        //       auth: {
+        //           user: 'rajkumarbfcsofttech@gmail.com',
+        //           pass: 'dmpycgstaxmxdbif'
+        //       }
+        //   });
 
-        //   var transporterAdmin = nodemailer.createTransport({
-        //     host: MailCredientail.MAIL_HOST,
-        //     port: MailCredientail.MAIL_PORT,
-        //     secureConnection: false,
-        //     auth: {
-        //         user: MailCredientail.MAIL_USERNAME,
-        //         pass: MailCredientail.MAIL_PASSWORD
-        //     }
-        // });
+          var transporterAdmin = nodemailer.createTransport({
+            host: MailCredientail.MAIL_HOST,
+            port: MailCredientail.MAIL_PORT,
+            secureConnection: false,
+            auth: {
+                user: MailCredientail.MAIL_USERNAME,
+                pass: MailCredientail.MAIL_PASSWORD
+            }
+        });
 
 
           transporterAdmin.sendMail({
